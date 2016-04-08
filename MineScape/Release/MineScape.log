@@ -1,0 +1,23 @@
+﻿Build started 4/8/2016 8:53:01 AM.
+     1>Project "C:\dr4g0nbyt3\git\mineScape\MineScape\MineScape.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\microsoftVisualStudio14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(24): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>main.cpp(25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>main.cpp(26): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>main.cpp(27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\microsoftVisualStudio14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\dr4g0nbyt3\git\mineScape\Release\MineScape.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\dr4g0nbyt3\git\mineScape\Release\MineScape.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\dr4g0nbyt3\git\mineScape\Release\MineScape.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         freeglut.lib
+         Generating code
+         5 of 6 functions (83.3%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         MineScape.vcxproj -> C:\dr4g0nbyt3\git\mineScape\Release\MineScape.exe
+     1>Done Building Project "C:\dr4g0nbyt3\git\mineScape\MineScape\MineScape.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.86
